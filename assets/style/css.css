@@ -1,0 +1,15 @@
+body, * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+.nav-section__brand {
+  width: 120px;
+}
+.nav-section__icons {
+  justify-content: end;
+}
+
+/*# sourceMappingURL=css.css.map */
