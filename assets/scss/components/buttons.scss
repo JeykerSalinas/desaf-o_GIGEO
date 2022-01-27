@@ -1,0 +1,14 @@
+.button-profile{
+    border: none;
+    width: 70px;
+    padding: 5px 0;
+    color: white;
+    font-size: 0.75rem;
+    
+    &:first-child{
+        background-color: #92DCE5;
+    }
+    &:last-child{
+        background-color: #EF6461;
+    }
+}

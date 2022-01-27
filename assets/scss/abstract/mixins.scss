@@ -1,0 +1,17 @@
+@mixin element-header {
+
+    & h2,
+    strong {
+      font-size: 22px;
+      margin: 0;
+      font-weight: 700;
+
+    }
+    & p {
+      color: gray;
+      font-size: 16px;
+      font-family: $ff-open;
+      margin: 0;
+    }
+  }
+  

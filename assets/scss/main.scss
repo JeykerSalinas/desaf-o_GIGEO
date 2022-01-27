@@ -1,27 +1,24 @@
-
-   
 // // Abstract
 // @import "abstract/abstract";
+@import "abstract/variables";
 
 // // Variables
-// @import "abstract/variables";
 // //Mixins
-// @import "abstract/mixins";
+@import "abstract/mixins";
 
 // // Base
 @import "base/reset";
 
 // //Typography
 
-// @import "base/typography";
+@import "base/typography";
 
 // // Components
-
+@import "components/buttons.scss";
 // // Layout
 // @import "layout/footer";
 @import "layout/navbar";
 @import "layout/header";
-// @import "layout/content";
+@import "layout/content";
 // @import "layout/profile";
 // @import "layout/pagination";
-

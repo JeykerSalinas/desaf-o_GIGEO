@@ -1,0 +1,31 @@
+.header-section {
+  &__banner {
+    width: 100%;
+    object-fit: cover;
+    height: 20vw;
+  }
+  &__profile {
+
+align-items: center;
+padding: 20px 10vw;
+}
+}
+
+.profile {
+  &__id {
+    display: flex;
+    align-items: center;
+    & img {
+      width: 25vw;
+      max-width: 100px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+    @include element-header;
+  }
+  &__folow{ 
+  }
+}
